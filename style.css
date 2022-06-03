@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(#94aafa 0% , #f97acf 100%);
+    background-image: "https://pro2-bar-s3-cdn-cf5.myportfolio.com/590fb3cf615d376b777f3318f51d8883/60d36503-d6cc-405c-b5b1-0a8ac83e2213_rw_3840.jpg?h=93e587398ace0ba07ced42c835110c23";
+}
+
+h3 {
+    font-size: 25px !important;
+    box-shadow: 5px 5px 10px rgb(255, 0, 0);
+   }
+
+.btn-warning:hover{
+    background: #98c4f6 ;
+    box-shadow: 5px 5px 10px rgb(4, 9, 161);
+}
+
+.btn-warning{
+    box-shadow: 5px 5px 10px rgb(239, 22, 138);
+}
+
+canvas{
+    animation-name: Mr-Art;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Mr-Art{
+    from {box-shadow: 1px 1px 10px #00a6ff ;}
+
+    to {box-shadow: 5px 5px 100px #f22ac6 ;}
+}
